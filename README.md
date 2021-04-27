@@ -320,3 +320,9 @@ An operator in charge of managing traffic via live chat would find it very easy 
 **Tidio API for Developers**
 
 - If you are looking for the [Tidio API documentation](https://docs.tidiochat.com/#introduction)
+
+## Typeform
+
+[Typeform](https://typeform.com) is a Spanish online SAAS company that specializes in online form building and online surveys. Its main software creates dynamic forms based on user needs. Typeform's software has been used by Apple Inc., Airbnb, Uber and Nike, Inc. Typeform produces millions of forms every month.
+
+- We are using this 3rd party plugin on our [Contact Page on Vasave Careers](https://vasavecareer.com/contact)
