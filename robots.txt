@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: 
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /study-abroad.html
+Allow: /contact.html
+Allow: /cookies-policy.pdf
+Allow: /privacy-policy.pdf
+Allow: /terms&amp;conditions.pdf
+Allow: /UK-list.pdf
+
+Sitemap: https://www.vasavecareer.com/sitemap.xml
