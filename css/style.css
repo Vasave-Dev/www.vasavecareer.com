@@ -47,11 +47,11 @@ a:hover {
 	color: #818181;
 }
 
-#black-blue {
+a.black-blue {
 	color: #313131;
 }
 
-#black-blue:hover {
+a.black-blue:hover {
 	color: #2564A7;
 }
 
