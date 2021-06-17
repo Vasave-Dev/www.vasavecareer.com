@@ -24,7 +24,6 @@
 -------------------------------------------------------------------*/
 
 body {
-	color: #666666;
 	font-size: 15px;
 	font-family: 'Archivo', sans-serif;
 	font-weight: 700;
@@ -495,14 +494,14 @@ a.navbar-brand img {
 	font-family: 'Poppins', sans-serif;
 	font-size: 65px;
 	font-weight: 800;
-	color: #2564A7;
+	color: #E8E8E8;
 	text-shadow: 5px 5px 10px #B4B4B4;
 }
 
 #theme_color_l2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
-	color: #313131;
+	color: #E8E8E8;
 	text-shadow: 2px 2px 2px #B4B4B4;
 }
 
@@ -1606,6 +1605,39 @@ p.count-text {
 
 /*------------------------------------------------------------------ Contact -------------------------------------------------------------------*/
 
+#googleMaps {
+	border-radius: 15px;
+}
+
+label.field-text {
+	font-family: sans-serif, 'Poppins';
+	font-size: 16px;
+	font-weight: 600;
+	text-indent: 25px;
+	color: #2564A7;
+}
+
+#full-name,
+#telephone,
+#email-address, 
+#message {
+	border-radius: 30px;
+	font-size: 14px;
+}
+
+#submit-button {
+	border-radius: 30px;
+	color: #fff;
+	background-color: #2564A7;
+	transition: 0.4s;
+}
+
+#submit-button:hover {
+	border-radius: 30px;
+	color: #2564A7;
+	background-color: #fff;
+}
+
 .contact-box {
 	padding: 70px 0px;
 }
@@ -1957,8 +1989,16 @@ h3.small_heading {
 	margin-top: 50px;
 }
 
+.margin-top_150 {
+	margin-top: 150px;
+}
+
 .margin-bottom_30 {
 	margin-bottom: 30px;
+}
+
+.margin-bottom_50 {
+	margin-bottom: 50px
 }
 
 .carousel a.carousel-control-prev {

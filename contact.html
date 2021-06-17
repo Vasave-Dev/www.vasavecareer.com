@@ -88,7 +88,7 @@
 	<section class="inner_banner">
 	<div class="container">
 		<div class="row">
-    	<div class="col-12">
+		<div class="col-12">
 			<div class="full">
 				<h3>Contact Us</h3>
 			</div>
@@ -102,16 +102,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12">
-					<div class="full float-right_img">
-                    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.53054283423!2d-0.11979008423558817!3d51.356542679610634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876072bcb382359%3A0x9ab843dc4b8cfcb9!2sVasave%20Business%20Solutions!5e0!3m2!1sen!2suk!4v1618587281801!5m2!1sen!2suk" width="490" height="490" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                	</div>
+                    <div class="full float-right_img">
+                        <iframe id="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.53054283423!2d-0.11979008423558817!3d51.356542679610634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876072bcb382359%3A0x9ab843dc4b8cfcb9!2sVasave%20Business%20Solutions!5e0!3m2!1sen!2suk!4v1618587281801!5m2!1sen!2suk" width="490" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-				<div class="contact_form">
-					<div class="typeform-widget" data-url="https://form.typeform.com/to/rJfjKfTr?typeform-medium=embed-snippet" data-transparency="100" data-hide-headers="true" data-hide-footer="true" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-				</div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="contact_form">
+                        <div class="margin-top_10">
+                            <form name="contact-form" accept-charset="utf-8" action="https://formsubmit.co/info@vasave.uk" method="POST">
+                                <fieldset>
+                                    <input type="text" name="_honey" style="display:none" />
+                                    <label class="field-text" for="full-name">Full Name</label>
+                                    <input type="text" name="full-name" id="full-name" placeholder="e.g. John Doe" required="">
+                                    <label class="field-text" for="email-address">Email Address</label>
+                                    <input type="email" name="email-address" id="email-address" placeholder="e.g. email@example.com" required="">
+                                    <label class="field-text" for="telephone">Phone Number</label>
+                                    <input type="telephone" name="phone-number" id="telephone" placeholder="e.g. +44 1234 567 890" required="">
+                                    <label class="field-text" for="message">Additional Information</label>
+                                    <textarea rows="5" name="additional-information" id="message" placeholder="e.g. 'I am looking to start a career in Cyber Security, but need training...'"></textarea>
+                                    <input type="hidden" name="_subject" id="email-subject" value="Vasave Business Solutions | Contact Form Submission">
+                                </fieldset>
+                                <input id="submit-button" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>			  
+            </div>
         </div>
     </div>
 	<!-- end section -->
