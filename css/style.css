@@ -50,8 +50,18 @@ a.black-blue {
 	color: #313131;
 }
 
+a#blue-black {
+	color: #2564A7;
+	font-family: sans-serif, 'Poppins';
+	font-size: 25px;
+}
+
 a.black-blue:hover {
 	color: #2564A7;
+}
+
+a#blue-black:hover {
+	color: #313131;
 }
 
 h1,
@@ -116,8 +126,6 @@ h5 a:hover,
 h6 a:hover {
 	opacity: .8
 }
-
-
 
 .dark_bg {
 	background: #000;
@@ -1605,6 +1613,8 @@ p.count-text {
 
 /*------------------------------------------------------------------ Contact -------------------------------------------------------------------*/
 
+/*------------------ Form ------------------*/
+
 #googleMaps {
 	border-radius: 15px;
 }
@@ -1637,6 +1647,8 @@ label.field-text {
 	color: #2564A7;
 	background-color: #fff;
 }
+
+/*------------------ Rest ------------------*/
 
 .contact-box {
 	padding: 70px 0px;
@@ -1688,8 +1700,6 @@ label.field-text {
 .dit-right a:hover {
 	color: #57cef8;
 }
-
-.contact-block {}
 
 .contact-block .form-group .form-control {
 	background: #333;
@@ -1900,15 +1910,27 @@ p {
 .heading_main h2 {
     font-size: 40px;
     font-weight: 800;
-    padding: 0 0 15px 0;
-    margin: 0 0 30px 0;
+    padding: 0 0 35px 0;
+    margin: 0 0 35px 0;
     font-family: 'Archivo', sans-serif;
     position: relative;
     background-position: left bottom;
     background-repeat: no-repeat;
 }
 
+#heading_main h2 {
+	align-content: center;
+	text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Archivo', sans-serif;
+}
+
 .heading_main h2 span {
+	color: #2564A7;
+}
+
+#heading_main h2 span {
 	color: #2564A7;
 }
 
