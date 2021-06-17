@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 
 body {
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Archivo', sans-serif;
 	font-weight: 700;
 	line-height: 1.80857;
@@ -479,7 +479,7 @@ a.navbar-brand img {
 	float: left;
 	padding: 0;
 	color: #313131;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 41px;
 	width: 0;
 	transition: width 400ms;
@@ -876,7 +876,7 @@ span.icon img {
 	background: #e91327;
 	color: #ffffff;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 16px;
 	border-radius: 0 15px;
 	margin-top: 10px;
 }
@@ -1351,7 +1351,7 @@ figure.effect-service:hover {
 .properties-dit ul li i {
 	float: right;
 	padding: 7px 10px;
-	font-size: 15px;
+	font-size: 16px;
 	color: #57cef8;
 }
 
@@ -2078,7 +2078,7 @@ ul.social_icon li {
     float: left;
     margin: 0;
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     width: 100%;
     text-align: center;
 }
