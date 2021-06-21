@@ -1615,6 +1615,35 @@ p.count-text {
 
 /*------------------ Form ------------------*/
 
+.contact_txt h4 {
+	width: 86%;
+	background: #fff;
+	margin: 0 7%;
+	padding: 0;
+	color: #2564A7;
+	text-align: center;
+	font-size: 20px;
+	min-height: 70px;
+	line-height: 70px !important;
+	box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
+	margin-top: -35px;
+}
+
+.contact_txt p {
+    width: 100%;
+    background: #fff;
+    margin: 0 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+	font-family: sans-serif, 'Poppins';
+	font-weight: 500;
+    font-size: 14px;
+    min-height: 70px;
+    line-height: 70px !important;
+    margin-top: -35px;
+}
+
 #submit-bt {
 	width: 100%;
     padding: 0 30%;
@@ -2311,18 +2340,15 @@ section.inner_banner h3 {
 }
 
 .blog_img_popular p {
-    width: 100%;
+    width: 86%;
     background: #fff;
-    margin: 0 0;
-    padding: 0;
+    margin: 0 7%;
+    padding-top: 5%;
     color: #000;
     text-align: center;
-	font-family: sans-serif, 'Poppins';
-	font-weight: 500;
-    font-size: 14px;
+	font-weight: 600;
+    font-size: 16px;
     min-height: 70px;
-    line-height: 70px !important;
-    margin-top: -35px;
 }
 
 .silver_bg {
@@ -2340,9 +2366,6 @@ section.inner_banner h3 {
 }
 
 /** contact **/
-
-.contact_form {
-}
 
 .contact_form input {
     width: 100%;
