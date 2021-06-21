@@ -980,7 +980,7 @@ a#scroll-to-top::after {
 /*------------------------------------------------------------------ Services -------------------------------------------------------------------*/
 
 .rounded-h4 {
-	border-radius:  10px;
+	border-radius:  15px;
 }
 
 .service_blog {
@@ -1615,15 +1615,48 @@ p.count-text {
 
 /*------------------ Form ------------------*/
 
-#googleMaps {
-	border-radius: 15px;
+#submit-bt {
+	width: 100%;
+    padding: 0 30%;
+    margin-right: auto;
+    margin-left: auto;
+	justify-content: center;
+	display: inline-block;
+	text-align: center;
+}
+
+.contact-card_rounded-h4 {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.googleMaps {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+label {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+input {
+	display: inline-block;
+	max-width: 100%;
+	text-align: center;
+}
+
+textarea {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
 }
 
 label.field-text {
 	font-family: sans-serif, 'Poppins';
 	font-size: 16px;
 	font-weight: 600;
-	text-indent: 25px;
 	color: #2564A7;
 }
 
@@ -2278,13 +2311,18 @@ section.inner_banner h3 {
 }
 
 .blog_img_popular p {
+    width: 100%;
+    background: #fff;
+    margin: 0 0;
+    padding: 0;
     color: #000;
     text-align: center;
-    font-size: 16px;
-    width: 86%;
-    margin: 0 7%;
-    line-height: 24px;
-    margin-top: 25px;
+	font-family: sans-serif, 'Poppins';
+	font-weight: 500;
+    font-size: 14px;
+    min-height: 70px;
+    line-height: 70px !important;
+    margin-top: -35px;
 }
 
 .silver_bg {
@@ -2302,6 +2340,9 @@ section.inner_banner h3 {
 }
 
 /** contact **/
+
+.contact_form {
+}
 
 .contact_form input {
     width: 100%;
