@@ -24,7 +24,7 @@
 -------------------------------------------------------------------*/
 
 body {
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'Archivo', sans-serif;
 	font-weight: 700;
 	line-height: 1.80857;
@@ -1993,6 +1993,29 @@ p {
     background-repeat: no-repeat;
 }
 
+.heading_main h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
+    font-family: 'Archivo', sans-serif;
+    position: relative;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.heading_main h4 {
+	color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
+    font-family: 'Archivo', sans-serif;
+    position: relative;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
 #heading_main h2 {
 	align-content: center;
 	text-align: center;
@@ -2005,7 +2028,11 @@ p {
 	color: #2564A7;
 }
 
-#heading_main h2 span {
+.heading_main h3 span {
+	color: #2564A7;
+}
+
+.heading_main h4 span {
 	color: #2564A7;
 }
 
