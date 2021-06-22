@@ -127,6 +127,12 @@ h6 a:hover {
 	opacity: .8
 }
 
+img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
 .dark_bg {
 	background: #000;
 }
@@ -371,7 +377,8 @@ a.navbar-brand {
 }
 
 a.navbar-brand img {
-    height: 50px;
+	width: 250px;
+    height: auto;
 }
 
 .top-header .navbar .navbar-collapse ul li a:focus {
@@ -1642,6 +1649,12 @@ p.count-text {
     min-height: 70px;
     line-height: 70px !important;
     margin-top: -35px;
+}
+
+.contact_txt img {
+	max-width: 20px;
+	width: 20px;
+	height: auto;
 }
 
 #submit-bt {
