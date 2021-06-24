@@ -340,6 +340,84 @@ button:focus {
 
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
 
+.first-nav_contact {
+	overflow: hidden;
+	background-color: #2564A7;
+	height: 35px;
+	max-height: 70px;
+}
+
+.first-nav_contact .left ul li a {
+	position: relative;
+	float: left;
+	font-family: sans-serif, 'Poppins';
+	font-size: 14px;
+	font-weight: 200;
+	text-transform: lowercase;
+	color: #fff;
+	padding: 5px 15px 0px 15px;
+	transition-delay: 0.1s;
+}
+
+.first-nav_contact .right ul li a {
+	position: relative;
+	float: right;
+	font-family: sans-serif, 'Poppins';
+	font-size: 14px;
+	font-weight: 200;
+	text-transform: lowercase;
+	padding: 5px 15px 0px 15px;
+}
+
+
+span.first-nav_contact-icon {
+	float: left;
+	text-align: center;
+}
+
+div.left span.first-nav_contact-icon img {
+	float: left;
+	width: 18px;
+	margin: 3px 5px 0 0;
+}
+
+span.first-nav_contact-icon img {
+	float: left;
+	width: 18px;
+	margin: 3px 5px 0 0;
+	-webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+	transition: all 0.15s ease ;
+}
+
+span.first-nav_contact-icon img:hover {
+	float: left;
+	width: 20px;
+	margin: 3px 5px 0 0;
+}
+
+.first-nav_contact .left ul li a:hover {
+	position: relative;
+	float: left;
+	font-family: sans-serif, 'Poppins';
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: lowercase;
+	padding: 5px 15px 0px 15px;
+}
+
+.first-nav_contact .right ul li a:hover {
+	position: relative;
+	float: right;
+	font-family: sans-serif, 'Poppins';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: lowercase;
+	color: #2564A7;
+	padding: 5px 15px 0px 15px;
+}
+
 .top-header .navbar {
 	padding:  10px 0px;
 }
