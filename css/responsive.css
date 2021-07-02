@@ -100,7 +100,7 @@ a.navbar-brand img {
          height: 41px;
     }
      .top-header .navbar .navbar-collapse ul li a:hover, .top-header .navbar .navbar-collapse ul li a:focus {
-         color: #0892fd;
+         color: #2564A7;
     }
      .slide_text p {
          display: none;
@@ -285,7 +285,7 @@ a.navbar-brand img {
     }
      .top-header {
          background-image: none;
-         background-color: #ecedef;
+         background-color: #FFF;
     }
      .about-main-info div.full > img {
          height: auto;
