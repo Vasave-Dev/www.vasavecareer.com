@@ -350,7 +350,7 @@ button:focus {
 /*------------------------------------------------------------------ HEADER -------------------------------------------------------------------*/
 
 .first-nav_contact {
-	overflow: hidden;
+	overflow: visible;
 	background-color: #285DA2;
 	height: 42px;
 }
@@ -532,7 +532,7 @@ a.navbar-brand img {
     overflow: scroll;
 }
 .tab_menu ul {
-    width: 1000px;
+    width: 1024px;
 }
 .full > img {
 	margin-right: 12%;
@@ -543,6 +543,7 @@ a.navbar-brand img {
 .blog_img_popular {
     margin-bottom: 30px;
 }
+
 /* search bar */
 
 .search-box {
@@ -1581,48 +1582,14 @@ p.count-text {
 
 /*------------------------------------------------------------------ Contact -------------------------------------------------------------------*/
 
-
-.contact_txt h5 {
-	width: 86%;
-	background: #FFF;
-	margin: 0 7%;
-	padding: 0;
-	text-align: center;
-	min-height: 70px;
-	line-height: 70px !important;
-	box-shadow: 0 0 25px 0 rgba(0,0,0,.2);
-	margin-top: -35px;
-}
-
-.form_txt p {
-    width: 100%;
-    background: #FFF;
-    margin: 0 0;
-    padding: 0;
-    color: #000;
-    text-align: center;
-	font-family: 'Montserrat';
-	text-transform: uppercase;
-	font-weight: 400;
-    font-size: 14px;
-    min-height: 70px;
-    line-height: 70px !important;
-    margin-top: -35px;
-}
-
-.form_txt img {
-	max-width: 20px;
-	width: 20px;
-	height: auto;
-}
-
 /*------------------ Form ------------------*/
 
-.form_txt h5 {
+.contact_txt h4 {
 	width: 86%;
-	background: #FFF;
+	background: #fff;
 	margin: 0 7%;
 	padding: 0;
+	color: #285DA2;
 	text-align: center;
 	min-height: 70px;
 	line-height: 70px !important;
@@ -1632,7 +1599,7 @@ p.count-text {
 
 .contact_txt p {
     width: 100%;
-    background: #F8F9FA;
+    background: #fff;
     margin: 0 0;
     padding: 0;
     color: #000;
@@ -2323,7 +2290,9 @@ section.inner_banner h1 {
 	transition: 0.2s;
 }
 
-.blog_img_popular h4:hover {
+.b
+
+.blog_img_popular h5:hover {
 	transform: scale(1.05);
 }
 

@@ -1,20 +1,20 @@
 /* only small desktops */
 /* tablets */
- @media (min-width: 992px) and (max-width: 1190px) {
-     .countdown{
-         height: 285px;
+@media (min-width: 992px) and (max-width: 1190px) {
+    .countdown{
+        height: 285px;
     }
-     .top-header .navbar .navbar-collapse ul li a{
-         font-size: 14px;
+    .top-header .navbar .navbar-collapse ul li a{
+        font-size: 14px;
     }
-     .lbox-details h2{
-         font-size: 26px;
+    .lbox-details h2{
+        font-size: 26px;
     }
-     .contact_bt {
-         margin-top: 25px;
+    .contact_bt {
+        margin-top: 25px;
     }
-     .slide_text {
-         margin-top: 70px;
+    .slide_text {
+        margin-top: 150px;
     }
 	.social_icon {
     margin-bottom: 30px;
@@ -31,7 +31,7 @@ padding: 7px 15px;
 }
 
 a.navbar-brand img {
-    height: 33px;
+    height: auto;
 }
 
 .search-box {
