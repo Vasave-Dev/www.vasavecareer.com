@@ -105,3 +105,22 @@
 	
 }(jQuery));
 
+
+
+/* ..............................................
+    Api calls 
+................................................. */
+
+let html = document.getElementById('api-call')
+
+let request = fetch('https://peaceful-fjord-88698.herokuapp.com/api/it-fields').then(Response => { return Response.json() }).then(users => { html.innerHTML =  users.data.map(x => `<h3>Job title</h3><h4 class="heading-job-title">${x.attributes.JobTitle}</h4><h3 class="heading-job-description-title">Job description</h3>${x.attributes.JobDescripsion.map(x=>`<li>${x}</li>`).join('')}`) })
+
+
+let htmlAssistance = document.getElementById('api-call-assistance-care')
+
+let requestAssistance = fetch('https://peaceful-fjord-88698.herokuapp.com/api/assistant-carers').then(Response => { return Response.json() }).then(users => { htmlAssistance.innerHTML = users.data.map(x => `<h3>Job title</h3><h4 class="heading-job-title">${x.attributes.JobTitle}</h4><h3 class="heading-job-description-title">Job description</h3>${x.attributes.JobDescripsion.map(x => `<li>${x}</li>`).join('')}`) })
+
+
+let htmlNurse = document.getElementById('api-call-nurse-care')
+
+let requestNurse = fetch('https://peaceful-fjord-88698.herokuapp.com/api/nurses').then(Response => { return Response.json() }).then(users => { htmlNurse.innerHTML =  users.data.map(x => `<h3>Job title</h3><h4 class="heading-job-title">${x.attributes.JobTitle}</h4><h3 class="heading-job-description-title">Job description</h3>${x.attributes.JobDescripsion.map(x=>`<li>${x}</li>`).join('')}`) })
