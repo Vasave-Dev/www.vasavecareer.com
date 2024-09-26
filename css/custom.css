@@ -1,1 +1,52 @@
 /** ADD YOUR AWESOME CODES HERE **/
+
+.centre{
+    justify-content: center;
+}
+
+.course-info-list li{
+
+    list-style-type: circle;
+}
+
+.sub-list li{
+    margin-left: 2rem;
+}
+
+#api-call, #api-call-nurse-care, #api-call-assistance-care{
+height: 40rem;
+overflow: scroll;
+overflow-x: hidden;
+width: 100%;
+}
+
+.heading-job-title{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: rgb(40, 93, 162);
+
+}
+
+.heading-job-description-title{
+font-size: 2rem;
+}
+
+
+.button-iconn {
+    margin-right: 1rem;
+    height: initial;
+    width: initial;
+}
+
+
+
+.button-It-Course {
+    border: none;
+    background-color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
